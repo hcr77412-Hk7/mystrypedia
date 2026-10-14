@@ -1,0 +1,6 @@
+{
+  "name": "Mystrypedia",
+  "description": "Explore the Unknown. Discover the Unexplained. A premium editorial magazine exploring historical mysteries, ancient civilizations, and maritime phenomena.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

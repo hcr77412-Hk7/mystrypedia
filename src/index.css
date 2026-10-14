@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-midnight: #101827;
+  --color-charcoal: #171C28;
+  --color-gold: #D6A84F;
+  --color-gold-hover: #E5BC68;
+  --color-teal: #38B7A5;
+  --color-ivory: #F4EBDD;
+  --color-slate: #52647D;
+  --color-grey: #B8C0CC;
+}
+
+:root {
+  --midnight-navy: #101827;
+  --deep-charcoal: #171C28;
+  --antique-gold: #D6A84F;
+  --antique-gold-hover: #E5BC68;
+  --muted-teal: #38B7A5;
+  --warm-ivory: #F4EBDD;
+  --slate-blue: #52647D;
+  --soft-grey: #B8C0CC;
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-display {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+.font-sans {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Custom editorial styling */
+html {
+  color-scheme: dark;
+  background-color: #101827;
+  color: #F4EBDD;
+}
+
+body {
+  background-color: #101827;
+  color: #F4EBDD;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: rgba(214, 168, 79, 0.35);
+  color: #FFFFFF;
+}
+
+/* Accessible focus ring */
+*:focus-visible {
+  outline: 2px solid #D6A84F;
+  outline-offset: 2px;
+}
+
+/* Smooth anchor offset for fixed navbar */
+[id] {
+  scroll-margin-top: 6rem;
+}
+
+/* Subtle gold divider rule */
+.divider-gold {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(214, 168, 79, 0.35) 50%, transparent);
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
