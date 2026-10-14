@@ -72,7 +72,7 @@ export const ARTICLES: ArticleData[] = [
     readTime: '9 min read',
     wordCount: 1420,
     featuredImage: {
-      src: '/src/assets/images/bermuda_triangle_ocean_storm_1791993837316.jpg',
+      src: '/images/bermuda-triangle.jpg',
       alt: 'Dramatic atmospheric storm clouds parting over churning turquoise and indigo waters in the Bermuda Triangle region with a subtle compass rose.',
       caption: 'Figure 1: The volatile meteorological crossroads of the Western North Atlantic, where the warm Gulf Stream collides with erratic continental cold fronts.',
       width: 1280,
@@ -208,7 +208,7 @@ export const ARTICLES: ArticleData[] = [
     readTime: '10 min read',
     wordCount: 1480,
     featuredImage: {
-      src: '/src/assets/images/giza_pyramids_construction_dawn_1791993839230.jpg',
+      src: '/images/egyptian-pyramids.jpg',
       alt: 'Ancient Egyptian workers and cedar transport barges moving megalithic stone blocks along a Nile river canal toward the Giza pyramids at dawn.',
       caption: 'Figure 2: Artist re-creation of Nile canal transport basins supplying the Giza plateau during the Fourth Dynasty inundation season.',
       width: 1280,
@@ -336,7 +336,7 @@ export const ARTICLES: ArticleData[] = [
     readTime: '9 min read',
     wordCount: 1390,
     featuredImage: {
-      src: '/src/assets/images/mary_celeste_ghost_ship_1791993838208.jpg',
+      src: '/images/mary-celeste.jpg',
       alt: 'Oil-painting style portrait of the two-masted merchant brigantine Mary Celeste sailing silently under full billowing canvas in the calm mid-Atlantic.',
       caption: 'Figure 3: The 282-ton Canadian-built brigantine Mary Celeste, immortalized as history\'s preeminent maritime ghost ship after her discovery on December 4, 1872.',
       width: 1280,

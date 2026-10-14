@@ -35,12 +35,18 @@ export function HomePage({ onNavigate, onOpenSearch, onOpenSEOInspector }: HomeP
           {/* Background Image with Dark Scrim Overlay */}
           <div className="absolute inset-0 z-0">
             <img
-              src="/src/assets/images/mystrypedia_hero_investigation_1791993836906.jpg"
+              src="/images/hero-investigation.jpg"
               alt="Archival investigator study at twilight with celestial star charts, navigational instruments, and research journals."
               className="w-full h-full object-cover object-center filter brightness-[0.4] contrast-[1.08]"
               width={1280}
               height={720}
               loading="eager"
+              onError={(e) => {
+                const target = e.currentTarget;
+                if (!target.src.includes('bermuda-triangle.jpg')) {
+                  target.src = '/images/bermuda-triangle.jpg';
+                }
+              }}
             />
             {/* Multi-layered dark navy gradient overlay for readability & atmosphere */}
             <div className="absolute inset-0 bg-gradient-to-t from-[#101827] via-[#101827]/80 to-[#101827]/60" />
@@ -162,6 +168,12 @@ export function HomePage({ onNavigate, onOpenSearch, onOpenSEOInspector }: HomeP
                       height={article.featuredImage.height}
                       loading="lazy"
                       referrerPolicy="no-referrer"
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        if (!target.src.includes('hero-investigation.jpg')) {
+                          target.src = '/images/hero-investigation.jpg';
+                        }
+                      }}
                       className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#101827] via-transparent to-transparent opacity-75" />

@@ -59,11 +59,12 @@ export function SEOInspectorModal({ isOpen, onClose, currentSEO, currentArticle 
           {
             '@type': 'WebSite',
             name: 'Mystrypedia',
+            alternateName: 'Mystrypedia Mystery Archive',
             url: 'https://mystrypedia.vercel.app/'
           },
           {
             '@type': 'Organization',
-            name: 'Mystrypedia Publishing',
+            name: 'Mystrypedia',
             url: 'https://mystrypedia.vercel.app/'
           }
         ]

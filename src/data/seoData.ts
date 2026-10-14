@@ -21,8 +21,8 @@ export const PAGES_SEO_MAP: Record<string, PageSEO> = {
     primaryKeyword: 'fascinating mysteries',
     relatedKeywords: ['unexplained mysteries', 'historical mysteries'],
     searchIntent: 'Informational',
-    seoTitle: 'Mystrypedia | Fascinating Mysteries & Historical Enigmas',
-    metaDescription: 'Explore fascinating mysteries, unexplained historical events, and ancient engineering enigmas with rigorous curatorial research and evidence at Mystrypedia.',
+    seoTitle: 'Mystrypedia — Historical Mysteries & Discoveries',
+    metaDescription: 'Explore fascinating mysteries, historical investigations, and ancient discoveries with peer-reviewed evidence and forensic research at Mystrypedia.',
     headingsCount: { h1: 1, h2Count: 6, h3Count: 4 },
     questionHeadings: [
       'What constitutes a genuine historical mystery versus popular mythology?',

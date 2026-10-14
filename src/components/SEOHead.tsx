@@ -80,9 +80,9 @@ export function SEOHead({ seo, article }: SEOHeadProps) {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'Mystrypedia',
-      alternateName: 'Mystrypedia Editorial',
-      url: BASE_PRODUCTION_URL,
-      description: 'Explore the Unknown. Discover the Unexplained. A premium editorial magazine exploring historical mysteries, ancient civilizations, and maritime phenomena.',
+      alternateName: 'Mystrypedia Mystery Archive',
+      url: `${BASE_PRODUCTION_URL}/`,
+      description: 'Explore fascinating mysteries, historical investigations, and ancient discoveries with peer-reviewed evidence and forensic research at Mystrypedia.',
       potentialAction: {
         '@type': 'SearchAction',
         target: `${BASE_PRODUCTION_URL}/?search={search_term_string}`,
@@ -93,8 +93,8 @@ export function SEOHead({ seo, article }: SEOHeadProps) {
     schemas.push({
       '@context': 'https://schema.org',
       '@type': 'Organization',
-      name: 'Mystrypedia Publishing',
-      url: BASE_PRODUCTION_URL,
+      name: 'Mystrypedia',
+      url: `${BASE_PRODUCTION_URL}/`,
       logo: `${BASE_PRODUCTION_URL}/logo.png`,
       sameAs: [
         'https://twitter.com/mystrypedia',

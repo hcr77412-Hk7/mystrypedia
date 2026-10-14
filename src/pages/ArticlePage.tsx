@@ -210,6 +210,12 @@ export function ArticlePage({ article, onNavigate, onOpenSEOInspector }: Article
                 height={article.featuredImage.height}
                 loading="eager"
                 referrerPolicy="no-referrer"
+                onError={(e) => {
+                  const target = e.currentTarget;
+                  if (!target.src.includes('hero-investigation.jpg')) {
+                    target.src = '/images/hero-investigation.jpg';
+                  }
+                }}
                 className="h-full w-full object-cover"
               />
             </div>

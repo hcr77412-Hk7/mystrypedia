@@ -21,12 +21,13 @@ export function Footer({ onNavigate, onOpenSEOInspector }: FooterProps) {
               href="/"
               onClick={(e) => handleNav(e, '/')}
               className="inline-flex flex-col items-start text-white group"
+              title="Mystrypedia — Mystery Archive"
             >
               <span className="font-display tracking-[0.2em] text-[#D6A84F] text-2xl font-bold transition-colors group-hover:text-[#E5BC68]">
                 MYSTRYPEDIA
               </span>
-              <span className="text-[9px] uppercase tracking-[0.3em] font-sans text-[#B8C0CC]/75 font-medium">
-                The Midnight Archive
+              <span className="text-[9px] uppercase tracking-[0.28em] font-sans text-[#B8C0CC]/75 font-medium">
+                Mystrypedia Mystery Archive
               </span>
             </a>
             <p className="text-xs leading-relaxed text-[#B8C0CC] font-sans">
